@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HVAC</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./output.css" />
+
+    <!-- Google Fonts MANROPE and SORA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="max-w-[1180px] w-full bg-white mx-auto px-3 py-2 flex items-center justify-between rounded-[50px] sticky top-3"
+    >
+      <!-- Site Logo -->
+      <div class="flex-shrink-0">
+        <a href="/">
+          <img src="./images/logo.svg" alt="site logo" />
+        </a>
+      </div>
+
+      <!-- Nav -->
+      <nav class="flex space-x-6">
+        <a class="font-manrope text-primary font-semibold text-lg" href="/"
+          >About Us</a
+        >
+        <a class="font-manrope text-primary font-semibold text-lg" href="/"
+          >Services</a
+        >
+        <a class="font-manrope text-primary font-semibold text-lg" href="/"
+          >Past Work</a
+        >
+        <a class="font-manrope text-primary font-semibold text-lg" href="/"
+          >Reviews</a
+        >
+      </nav>
+
+      <!-- CTA -->
+      <div class="px-6 py-4 bg-primary rounded-4xl">
+        <a
+          class="font-manrope font-semibold capitalize text-lg text-white"
+          href="/"
+          >Get free quote</a
+        >
+      </div>
+    </header>
+
+    <!-- Main Start -->
+    <main>
+      <!-- Hero Section -->
+      <section class="w-screen hero-multi-bg">
+        <div class="container max-w-[1180px] w-full mx-auto px-5 mt-[-76px]">
+          <!-- Left Side -->
+          <div class="">
+            <h1>Reliable HVAC for Every Season</h1>
+
+            <!-- Features list -->
+            <ul>
+              <li>
+                <img src="./images/checkmark-badge.svg" alt="verified icon" />
+                <p>Certified & Experienced Technicians</p>
+              </li>
+              <li>
+                <img src="./images/alarm-clock.svg" alt="alarm clock icon" />
+                <p>Fast, Reliable Service</p>
+              </li>
+              <li>
+                <img src="./images/hot-price.svg" alt="hot price icon" />
+                <p>Transparent, Affordable Pricing</p>
+              </li>
+            </ul>
+
+            <!-- Hero form -->
+            <form>
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Phone" />
+              <select name="Service" id="service">
+                <option value="option">Service</option>
+              </select>
+              <button type="submit">Submit</button>
+            </form>
+
+            <!-- Certified Installer -->
+            <div class="">
+              <p>Certified Installer</p>
+              <div class="">
+                <img src="./images/gaf-logo.svg" alt="gaf logo" />
+                <img src="./images/lennox-logo.svg" alt="lennox logo" />
+                <img
+                  src="./images/american-standard-logo.svg"
+                  alt="american american-standard-logo"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- right side -->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
