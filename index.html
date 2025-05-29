@@ -208,23 +208,29 @@
 
       <!-- Testimonials section -->
       <section class="w-screen pt-20 pb-[50px]">
-        <div class="container max-w-[1180px] w-full mx-auto px-5">
+        <div class="container max-w-[1180px] w-full mx-auto px-5 text-center">
           <!-- Heading 2 -->
-          <h2>Trusted by Families Like Yours</h2>
+          <h2 class="text-center">Trusted by Families Like Yours</h2>
 
           <!-- Testimonial Grid -->
-          <div class="">
+          <div class="mt-10 grid grid-cols-3 gap-[30px]">
             <!-- Card 1 -->
-            <div class="">
+            <div
+              class="bg-white rounded-[50px] shadow-xl py-6 px-14 flex flex-col items-center"
+            >
               <!-- profile and star -->
-              <div class="">
-                <div class="">
-                  <img src="./images/mark-farias.jpg" alt="" />
+              <div class="flex flex-col items-center">
+                <div class="h-14 w-14 rounded-full overflow-hidden mb-2">
+                  <img
+                    class="w-full object-cover"
+                    src="./images/mark-farias.jpg"
+                    alt=""
+                  />
                 </div>
                 <!-- Name -->
                 <p>Mason Carter</p>
                 <!-- Starts -->
-                <ul>
+                <ul class="flex gap-0.5">
                   <li><img src="./images/star.svg" alt="star icon" /></li>
                   <li><img src="./images/star.svg" alt="star icon" /></li>
                   <li><img src="./images/star.svg" alt="star icon" /></li>
@@ -234,55 +240,158 @@
               </div>
 
               <!-- Review Text -->
-              <p>
+              <p class="text-sm text-secondary text-center my-5">
                 “Super professional service, quick installation, and everything
                 works perfectly. Highly recommend!”
               </p>
 
               <!-- Review Source -->
-              <div class="">
+              <div class="flex flex-col items-center gap-0.5">
                 <img src="./images/google-logo.svg" alt="google logo" />
-                <p>Reviewed on Google</p>
+                <p class="text-sm">Reviewed on Google</p>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div
+              class="bg-primary rounded-[50px] shadow-xl py-6 px-14 flex flex-col items-center"
+            >
+              <!-- profile and star -->
+              <div class="flex flex-col items-center">
+                <div class="h-14 w-14 rounded-full overflow-hidden mb-2">
+                  <img
+                    class="w-full object-cover"
+                    src="./images/vince-fleming.jpg"
+                    alt=""
+                  />
+                </div>
+                <!-- Name -->
+                <p class="text-white">Chloe Anderson</p>
+                <!-- Starts -->
+                <ul class="flex gap-0.5">
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                </ul>
+              </div>
+
+              <!-- Review Text -->
+              <p class="text-sm text-white text-center my-5">
+                “Very happy with their work! The team was efficient and the new
+                system runs great.”
+              </p>
+
+              <!-- Review Source -->
+              <div class="flex flex-col items-center gap-0.5">
+                <img src="./images/google-logo.svg" alt="google logo" />
+                <p class="text-sm text-white">Reviewed on Google</p>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div
+              class="bg-white rounded-[50px] shadow-xl py-6 px-14 flex flex-col items-center"
+            >
+              <!-- profile and star -->
+              <div class="flex flex-col items-center">
+                <div class="h-14 w-14 rounded-full overflow-hidden mb-2">
+                  <img
+                    class="w-full object-cover"
+                    src="./images/mark-farias.jpg"
+                    alt=""
+                  />
+                </div>
+                <!-- Name -->
+                <p>Skylar Bennett</p>
+                <!-- Starts -->
+                <ul class="flex gap-0.5">
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                  <li><img src="./images/star.svg" alt="star icon" /></li>
+                </ul>
+              </div>
+
+              <!-- Review Text -->
+              <p class="text-sm text-secondary text-center my-5">
+                “Great experience from start to finish. Honest pricing and
+                top-notch service!”
+              </p>
+
+              <!-- Review Source -->
+              <div class="flex flex-col items-center gap-0.5">
+                <img src="./images/google-logo.svg" alt="google logo" />
+                <p class="text-sm">Reviewed on Google</p>
               </div>
             </div>
           </div>
 
           <!-- View More btn -->
-          <a href="/">View More</a>
+          <a
+            class="inline-block px-6 py-3 mt-8 text-white bg-primary rounded-lg"
+            href="/"
+            >View More</a
+          >
         </div>
       </section>
 
       <!-- Trusted Experts -->
       <section class="w-screen py-[50px]">
-        <div class="container max-w-[1180px] w-full mx-auto px-5">
+        <div class="container max-w-[1180px] w-full mx-auto px-5 text-center">
           <!-- Heading 2 -->
-          <h2>Your Trusted HVAC Experts</h2>
+          <h2 class="mb-10">Your Trusted HVAC Experts</h2>
 
           <!-- Trusted Logos -->
-          <div class="">
+          <div class="flex flex-col justify-center items-center">
             <!-- Top two icons -->
-            <div class="">
-              <img
-                src="./images/iso-certified-badge.png"
-                alt="iso certified badge"
-              />
-              <img
-                src="./images/iso-certified-badge-2.png"
-                alt="iso certified badge 2"
-              />
+            <div class="flex gap-10">
+              <div class="flex flex-col items-center">
+                <img
+                  class="h-[100px]"
+                  src="./images/iso-certified-badge.png"
+                  alt="iso certified badge"
+                />
+                <p class="mt-1">ISO 9001 Certified</p>
+                <p class="text-sm text-secondary">
+                  Quality Management for HVAC Excellence
+                </p>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  class="h-[100px]"
+                  src="./images/iso-certified-badge-2.png"
+                  alt="iso certified badge 2"
+                />
+                <p class="mt-1">ISO 14001 Certification</p>
+                <p class="text-sm text-secondary">
+                  Eco-Friendly HVAC Solutions
+                </p>
+              </div>
             </div>
 
             <!-- Bottom icons -->
-            <div class="">
-              <img
-                src="./images/empresa-certificada.svg"
-                alt="epresa certificada"
-              />
-              <img
-                src="./images/international-mega-standard.svg"
-                alt="international mega standard"
-              />
-              <img src="./images/nate-logo.svg" alt="nate logo" />
+            <div class="flex gap-10 mt-14">
+              <div class="flex flex-col items-center">
+                <img
+                  src="./images/empresa-certificada.svg"
+                  alt="epresa certificada"
+                />
+                <p class="mt-4">EPA Certified</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="./images/international-mega-standard.svg"
+                  alt="international mega standard"
+                />
+                <p class="mt-4">BBB Accredited</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <img src="./images/nate-logo.svg" alt="nate logo" />
+                <p class="mt-4">NATE Certified</p>
+              </div>
             </div>
           </div>
         </div>
