@@ -398,18 +398,49 @@
       </section>
 
       <!-- Benifits of choosing us -->
-      <section class="w-screen pt-20 pb-[50px]">
-        <div class="container max-w-[1180px] w-full mx-auto px-5">
+      <section class="w-screen pt-20 pb-[50px] bg-secondary">
+        <div class="container max-w-[1180px] w-full mx-auto px-5 text-center">
           <!-- Heading 2 -->
           <h2>The Benefits of Choosing Us</h2>
 
           <!-- benifit grid -->
-          <div class="">
+          <div class="grid grid-cols-3 gap-[30px] mt-10">
             <!-- benifit card 1 -->
-            <div class="">
+            <div
+              class="bg-white px-7 py-8 flex flex-col items-center rounded-tr-3xl rounded-bl-3xl"
+            >
               <img src="./images/clock-03.svg" alt="clock" />
-              <h3>24/7 Emergency Services</h3>
-              <p>Fast and reliable emergency HVAC services available 24/7.</p>
+              <h3 class="text-2xl text-primary mt-3">
+                24/7 Emergency Services
+              </h3>
+              <p class="text-sm text-secondary mt-1">
+                Fast and reliable emergency HVAC services available 24/7.
+              </p>
+            </div>
+
+            <!-- benifit card 2 -->
+            <div
+              class="bg-white px-7 py-8 flex flex-col items-center rounded-tr-3xl rounded-bl-3xl"
+            >
+              <img src="./images/labor.svg" alt="labor icon" />
+              <h3 class="text-2xl text-primary mt-3">
+                Experienced Professionals
+              </h3>
+              <p class="text-sm text-secondary mt-1">
+                Highly trained and certified HVAC experts with years of industry
+                experience.
+              </p>
+            </div>
+
+            <!-- benifit card 3 -->
+            <div
+              class="bg-white px-7 py-8 flex flex-col items-center rounded-tr-3xl rounded-bl-3xl"
+            >
+              <img src="./images/dollar-circle.svg" alt="dollar icon" />
+              <h3 class="text-2xl text-primary mt-3">Affordable Pricing</h3>
+              <p class="text-sm text-secondary mt-1">
+                Transparent and competitive pricing with no hidden fees.
+              </p>
             </div>
           </div>
         </div>
@@ -418,12 +449,16 @@
       <!-- Past works -->
       <section class="w-screen pt-20 pb-[50px]">
         <!-- 2x2 grid layout -->
-        <div class="container max-w-[1180px] w-full mx-auto px-5">
+        <div
+          class="container max-w-[1180px] w-full mx-auto px-5 grid grid-cols-2 gap-[30px]"
+        >
           <!-- top left -->
           <div class="">
             <!-- Heading 2 -->
-            <h2>Trusted by Families Like Yours</h2>
-            <p>
+            <h2 class="text-primary font-manrope font-bold">
+              Trusted by Families Like Yours
+            </h2>
+            <p class="text-secondary my-[42px]">
               Explore some of the outstanding HVAC projects we’ve proudly
               completed. Every image reflects our unwavering commitment to
               quality, reliability, and expert craftsmanship — from flawless
@@ -431,19 +466,58 @@
               examples of the exceptional results we deliver for homeowners like
               you.
             </p>
-            <a href="/">Explore Our Work</a>
+            <a
+              class="inline-block py-3 px-6 bg-primary rounded-lg text-white font-medium"
+              href="/"
+              >Explore Our Work</a
+            >
           </div>
 
           <!-- top right -->
-          <div class="">
-            <h3>Efficient Home Heating Upgrade</h3>
-            <p>
+          <div class="bg-primary px-[22px] pt-9 pb-5 rounded-3xl">
+            <h3 class="text-white font-medium font-manrope mb-1.5">
+              Efficient Home Heating Upgrade
+            </h3>
+            <p class="text-sm text-white mb-4">
               Installed a high-efficiency furnace system, reducing energy costs
               and improving comfort for the homeowners.
             </p>
             <img
+              class="h-[250px] w-full object-cover rounded-2xl"
               src="./images/man-climbing-ladder.jpg"
               alt="man climbing ladder"
+            />
+          </div>
+
+          <!-- Bottom left -->
+          <div class="bg-primary px-[22px] pt-9 pb-5 rounded-3xl">
+            <h3 class="text-white font-medium font-manrope mb-1.5">
+              Complete HVAC System Installation
+            </h3>
+            <p class="text-sm text-white mb-4">
+              Designed and installed a full heating and cooling solution for a
+              newly built modern home.
+            </p>
+            <img
+              class="h-[250px] w-full object-cover rounded-2xl"
+              src="./images/low-angle-people-working-with-drill.jpg"
+              alt="man using drill"
+            />
+          </div>
+
+          <!-- Bottom Right -->
+          <div class="bg-primary px-[22px] pt-9 pb-5 rounded-3xl">
+            <h3 class="text-white font-medium font-manrope mb-1.5">
+              Emergency AC Repair & Restoration
+            </h3>
+            <p class="text-sm text-white mb-4">
+              Rapid response service that restored cooling during peak summer
+              heat, ensuring family comfort and safety.
+            </p>
+            <img
+              class="h-[250px] w-full object-cover rounded-2xl"
+              src="./images/hvac-dusting-blower-fan.png"
+              alt="man working"
             />
           </div>
         </div>
@@ -451,18 +525,28 @@
 
       <!-- Save Big Section -->
       <section class="w-screen pt-20 pb-[50px]">
-        <div class="container max-w-[1180px] w-full mx-auto px-5">
+        <div class="container max-w-[1180px] w-full mx-auto px-5 text-center">
           <!-- Heading 2 -->
-          <h2>Save Big on Your Next HVAC Project</h2>
+          <h2 class="font-bold font-manrope text-primary">
+            Save Big on Your Next HVAC Project
+          </h2>
 
           <!-- left big and right small cards -->
-          <div class="">
+          <div class="grid grid-cols-3 gap-[30px] mt-10">
             <!-- Left -->
-            <div class="">
-              <div class="">
-                <a href="/">Hot Offer</a>
-                <h3>Get $500 OFF New HVAC System Installation!</h3>
-                <p>
+            <div class="col-span-2">
+              <div
+                class="h-[382px] flex flex-col gap-5 items-start justify-end py-7 px-4 bg-[url(./images/man-working-top-view.jpg)] bg-green-600/30 bg-blend-overlay bg-cover rounded-4xl text-left"
+              >
+                <a
+                  class="rounded-lg py-3 px-6 bg-secondary text-[#0b5d1e]"
+                  href="/"
+                  >Hot Offer</a
+                >
+                <h3 class="font-manrope font-medium text-white">
+                  Get $500 OFF New HVAC System Installation!
+                </h3>
+                <p class="text-white text-sm">
                   Upgrade your comfort and save big! Get an instant $500 OFF
                   when you install a brand-new, energy-efficient HVAC system —
                   limited time only!
@@ -471,7 +555,15 @@
             </div>
 
             <!-- Right -->
-            <div class=""></div>
+            <div class="col-span-1">
+              <div class="h-[382px] overflow-hidden rounded-4xl">
+                <img
+                  class="w-full object-cover"
+                  src="./images/people-working-on-cellling.jpg"
+                  alt="co-operation"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
